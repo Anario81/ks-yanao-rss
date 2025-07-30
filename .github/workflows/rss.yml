@@ -1,8 +1,8 @@
 name: Update RSS Feed
 on:
   schedule:
-    - cron: '0 12 * * *'  # Запуск каждый день в 12:00 UTC
-  workflow_dispatch:       # Можно запускать вручную
+    - cron: '0 12 * * *'  # Р—Р°РїСѓСЃРє РєР°Р¶РґС‹Р№ РґРµРЅСЊ РІ 12:00 UTC
+  workflow_dispatch:       # РњРѕР¶РЅРѕ Р·Р°РїСѓСЃРєР°С‚СЊ РІСЂСѓС‡РЅСѓСЋ
 jobs:
   generate-rss:
     runs-on: ubuntu-latest
